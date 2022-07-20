@@ -1,3 +1,5 @@
+import './app.css';
+
 export default function App(){
   return (
     <div className="app">
@@ -17,7 +19,7 @@ export default function App(){
           Calcular
         </button>
       </div>
-      <h2>Seu IMC foi 30, você está acima do peso!</h2>
+      <h2>Seu IMC foi 25, você está acima do peso!</h2>
     </div>
   )
 }
